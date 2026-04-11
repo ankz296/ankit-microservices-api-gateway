@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Slf4j
-@RestControllerAdvice
+@RestControllerAdvice(basePackages = "dev.ankit.platform.api_gateway")
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
